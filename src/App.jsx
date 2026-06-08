@@ -7,7 +7,7 @@ import Detalhes from './pages/detalhes';
 import Estante from './pages/estante';
 import Perfil from './pages/perfil';
 import Header from './componentes/header';
-import Footer from './componentes/Footer';
+import Footer from './componentes/Footer.jsx';
 import { useState } from 'react';
 
 function App() {
