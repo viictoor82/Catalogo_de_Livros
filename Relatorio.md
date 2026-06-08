@@ -40,8 +40,21 @@ O sistema contém:
 - Estrutura organizada em páginas
 
 ---
+## 6. Diagrama simplificado do sistema
+Home → Catálogo → Detalhes → Estante
+          ↓
+       Login / Cadastro → Perfil
+       
+---
+## 7. Fluxo da aplicação
+Usuário acessa a Home
+Navega para o Catálogo
+Visualiza livros e adiciona à Estante
+Pode ver detalhes de cada livro
+Gerencia sua conta no Perfil
 
-## 6. Conclusão
+---
+## 8. Conclusão
 O projeto demonstra o uso de React para criação de interfaces modernas, utilizando componentes e rotas.
 
 
