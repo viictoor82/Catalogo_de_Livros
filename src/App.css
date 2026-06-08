@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.Livro {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.capa-livro {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.estante {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.livro-estante {
+    width: 120px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.capa-livro-estante {
+    width: 80px;
+    height: 120px;
+}
+
+.livro-estante h3 {
+    font-size: 14px;
+    margin: 8px 0 4px;
+}
+
+.livro-estante p {
+    font-size: 12px;
+    margin: 4px 0;
+}
+
+.livro-estante button {
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
+.cadastro {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.cadastro input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.cadastro button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.login,
+.perfil,
+.cadastro {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.login h1,
+.perfil h1,
+.cadastro h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login input,
+.cadastro input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.login button,
+.cadastro button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login button:hover,
+.cadastro button:hover {
+    background-color: #45a049;
+}
+
+.perfil p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+.home {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  min-height: 100vh;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.btn-add {
+  background: #4cafef;
+  border: none;
+  padding: 10px 18px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-add:hover {
+  background: #2196f3;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.lista {
+  flex: 1;
+}
+
+/* FOOTER pequeno e no fim */
+.footer {
+  background: #1e1e1e;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.copy {
+  color: #aaa;
+  font-size: 11px;
+}
