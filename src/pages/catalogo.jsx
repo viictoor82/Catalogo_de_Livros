@@ -9,7 +9,7 @@ import titulo1984 from '../assets/capas-livros/1984.jpeg';
 import ameninaqueroubavalivros from '../assets/capas-livros/a-menina-que-roubava-livros.jpeg';
 import pedrafilosofal from '../assets/capas-livros/pedra-filosofal.jpeg';
 import oalquimista from '../assets/capas-livros/o-alquimista.jpeg';
-import Footer from '../componentes/footer';
+import Footer from '../componentes/Footer';
 
 function Catalogo(props) {
 const { estante = [], setEstante } = props;
@@ -132,7 +132,6 @@ return (
             <strong>Livros na Estante:</strong>{' '}
             {estante.length}
         </p>
-        <Footer />
     </div>
 );
 

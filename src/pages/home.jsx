@@ -1,5 +1,5 @@
 import "../app.css";
-import Footer from "../componentes/footer";
+
 function Home() {
   return (
     <div className="home">
@@ -13,7 +13,7 @@ function Home() {
       <section className="lista">
         {/* seus livros aqui */}
       </section>
-        <Footer />
+        
     </div>
     
   );

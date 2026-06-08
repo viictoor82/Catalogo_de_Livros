@@ -183,8 +183,7 @@ html, body {
   height: 100%;
   margin: 0;
 }
-
-.home {
+#root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -195,7 +194,8 @@ html, body {
 }
 
 /* FOOTER pequeno e no fim */
-.footer {
+.Footer {
+  margin-top: auto;
   background: #1e1e1e;
   color: white;
   padding: 10px 0;

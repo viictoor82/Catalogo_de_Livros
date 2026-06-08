@@ -7,6 +7,7 @@ import Detalhes from './pages/detalhes';
 import Estante from './pages/estante';
 import Perfil from './pages/perfil';
 import Header from './componentes/header';
+import Footer from './componentes/Footer';
 import { useState } from 'react';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/estante" element={<Estante estante={estante} setEstante={setEstante} />} />
         <Route path="/perfil" element={<Perfil />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

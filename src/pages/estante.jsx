@@ -1,5 +1,5 @@
 import "../app.css";
-import Footer from "../componentes/footer";
+
 
 function Estante({ estante = [], setEstante }) {
 
@@ -42,7 +42,7 @@ function Estante({ estante = [], setEstante }) {
             <p>
                 <strong>Livros na Estante:</strong> {estante.length}
             </p>
-            <Footer />
+           
         </div>
     );
 }
